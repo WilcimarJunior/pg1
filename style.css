@@ -3,7 +3,7 @@
 
 
 :root{
-    --fonte-Padrao:text-align: center; font-family: Arial, Helvetica, sans-serif;color: #e00d0d;
+    --fonte-Padrao:text-align: center; font-family: Arial, Helvetica, sans-serif;font-weight: lighter;
     --fonte-destaque:font-family: 'Goldman', sans-serif;text-align: center;
     --fonte-texto:text-align: center; font-family: Arial, Helvetica, sans-serif;color: blanchedalmond;
 }
@@ -17,24 +17,27 @@ main{
     min-width:300px;
     max-width: 1000px;
     margin: auto;
+    padding: 20px;
 }
 
 body{
     background: url(backggames3op.jpg);
     background-attachment: fixed;
     min-width:300px;
-    max-width: 1000px;
+    max-width: 950px;
     margin: auto;
 }
 
 h2{
     font-family: var(--fonte-Padrao);
     color: white;
+    text-align: center;
    width: 100%;
     text-shadow: 0px 0px 1px;
     border-radius: 50%;
-    background-color:goldenrod;
+    background-color: black;
     margin-bottom: 30px;
+    
     box-shadow: 2px 2px 3px gray;
 }
 
@@ -46,18 +49,18 @@ section h3 {
 
 
 header{
-    min-height: 260px;
-    max-width: 1000px;
+    text-align:center;
+    min-height: 360px;
+    width: 100%;
     background-image: url("headeree1-40.jpg");
     background-size: 100%;
     border-radius: 10px 10px 10px;
-    box-shadow: 5px 5px 10px gray;
+    box-shadow: 3px 3px 3px gray;
     margin-bottom: -25px;
     margin-top: -45px;
-    text-align:center;
 }
 
-header h1{
+header > h1{
     font-family:var(--fonte-destaque);
     background-color: black;
     color: #f0e797;
@@ -203,6 +206,8 @@ table,th,tr{
 }
 
 .sei {
-border-radius:5px;
+margin-top: 50px;  
+border-radius:10px 10px 10px 10px;
+
 }
 
