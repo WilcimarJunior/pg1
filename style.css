@@ -6,6 +6,10 @@
     --fonte-Padrao:text-align: center; font-family: Arial, Helvetica, sans-serif;font-weight: lighter;
     --fonte-destaque:font-family: 'Goldman', sans-serif;text-align: center;
     --fonte-texto:text-align: center; font-family: Arial, Helvetica, sans-serif;color: blanchedalmond;
+    --cor-1: rgb(255, 205, 111);
+    --cor-2: rgb(250, 231, 124);
+    --cor-3: orange;
+    --cor-destaque:#ddc702;
 }
 
 *{
@@ -86,7 +90,7 @@ header p{
 }
 
 .dropbtn{
-    background-color: hsl(54, 93%, 44%);
+    background-color: #d9c408;
     color: white;
     padding: 16px;
     font-size: 16px;
@@ -119,7 +123,7 @@ header p{
 }
 
 .dropdown-content a:hover{
-    background-color: rgba(255, 217, 0, 0.5);
+    background-color: var(--cor-1);
     border-radius: 5px;
 }
 
@@ -128,7 +132,7 @@ header p{
 }
 
 .dropdown:hover .dropbtn{
-    background-color: gold;
+    background-color: var(--cor-1);
 }
 
 nav{
@@ -139,7 +143,7 @@ nav{
 }
 
 nav > a:hover{
-background-color: rgb(255, 217, 0);
+background-color:var(--cor-1);
 color: white;
 transition-duration: 0.5s;
 }
@@ -149,7 +153,7 @@ nav > a{
     font-size: 1.5em;
     color:white;
     text-decoration: none;
-    background-color:hsl(54, 93%, 44%);
+    background-color:var(--cor-destaque);
     border-radius: 5px;
     padding: 4px;
     margin: 5px;
@@ -171,7 +175,7 @@ section {
     font-size: larger;
     margin-top: -10px;
 margin-bottom: 50px;
-background-image:linear-gradient(to top,gold, #f0e797);
+background-image:linear-gradient(to top,var(--cor-1), var(--cor-2));
 min-height: 1000px;
 width: 600px 0px;
 border-radius: 10px 10px 10px 10px;
@@ -207,6 +211,7 @@ table,th,tr{
 }
 
 .sei {
+    
 margin-top: 50px;  
 border-radius:10px 10px 10px 10px;
 
