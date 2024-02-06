@@ -19,7 +19,7 @@
 
 main{
     min-width:300px;
-    max-width: 1000px;
+    max-width: 100%;
     margin: auto;
     padding: 20px;
 }
@@ -27,8 +27,7 @@ main{
 body{
     background: url(backggames3op.jpg);
     background-attachment: fixed;
-    min-width:300px;
-    max-width: 950px;
+    width: 100%;
     margin: auto;
 }
 
@@ -36,9 +35,10 @@ h2{
     font-family: var(--fonte-Padrao);
     color: white;
     text-align: center;
-   width: 100%;
+    width: 100%;
+    padding: auto;
     text-shadow: 0px 0px 1px;
-    border-radius: 50%;
+    border-radius: 0px;
     background-color: black;
     margin-bottom: 30px;
     
@@ -62,7 +62,7 @@ header{
     width: 100%;
     background-image: url("headeree1-40.jpg");
     background-size: 100%;
-    border-radius: 10px 10px 10px;
+    border-radius:1px;
     box-shadow: 3px 3px 3px gray;
     margin-bottom: -25px;
     margin-top: -45px;
@@ -70,11 +70,10 @@ header{
 
 header > h1{
     font-family:var(--fonte-destaque);
-    background-color: black;
+    
     color: #f0e797;
     font-size:3em;
-    text-shadow: 0px 0px 3px gold;
-    border-radius: 5px;
+    text-shadow: 0px 0px 5px black;
     margin-top: 35px;
     margin-bottom: -25px;
     padding: 30px;
@@ -82,15 +81,17 @@ header > h1{
 }
 
 
-header p{
+header > p{
     font-family: var(--fonte-Padrao);
+    background-color: black;
     text-align: center;
     color: blanchedalmond;
-    max-width: 1000px;
-    margin-top: 20px;
-    text-align: justify;
-    background-color: black;
-    box-shadow: 0px 3px 3px black;
+    width: 100%;
+    
+    padding-bottom: 20px;
+    margin-top: 215px;
+    margin-bottom:auto;
+    box-shadow: 0px 3px 1px black;
     font-size: 1.5em;
 }
 
@@ -175,15 +176,15 @@ img{
 }
 
 section {
-    background-image:linear-gradient(to top,var(--cor-1), var(--cor-2));
-    min-height: 1000px;
+    background-image:linear-gradient(to top,var(--cor-1), var(--cor-2)); 
+    min-height: 500px;
+    margin: auto;
     margin-top: 10px;
     margin-bottom: 20px;
-    width: 600px 0px;
-    border-radius: 10px 10px 10px 10px;
+    max-width: 600px;
+    border-radius: 5px 5px;
     box-shadow: 3px 3px 5px gray;
-    padding:20px;
-    
+    padding:20px; 
 }
 
 section > p{
@@ -194,7 +195,7 @@ section > p{
     
 }
 
-section img {
+section > img{
     width: 70%;
     margin: auto;
     border-radius: 5px;
@@ -220,11 +221,6 @@ article > iframe{
         
 table,th,tr{
     border: 1px solid black;margin:auto;padding:auto;
-}
-
-.hl {
-    max-width: 500px;
-    max-height: 300px;
 }
 
 .sei {
