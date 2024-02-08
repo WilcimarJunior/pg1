@@ -62,7 +62,8 @@ header{
     min-height: 360px;
     width: 100%;
     background-image: url("headeree1-40.jpg");
-    background-size: 100%;
+    background-size: cover;
+    background-attachment: fixed;
     border-radius:1px;
     box-shadow: 3px 3px 3px gray;
     margin-bottom: -25px;
@@ -71,9 +72,8 @@ header{
 
 header > h1{
     font-family:var(--fonte-destaque);
-    
     color: #f0e797;
-    font-size:4em;
+    font-size:3em;
     text-shadow: 0px 0px 5px black;
     margin-top: 35px;
     margin-bottom: -25px;
