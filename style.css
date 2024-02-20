@@ -60,10 +60,10 @@ section h3 {
 header{
     text-align:center;
     min-height: 360px;
-    width: 100%;
-    background-image: url("/widen_1220x0CeC_opa75_res50.jpg");
+    background-image: url("widen_1220x0CeC_opa75_res50.jpg");
     background-size: cover;
     background-attachment: fixed;
+    background-position: center;
     border-radius:1px;
     box-shadow: 3px 3px 3px gray;
     margin-bottom: -25px;
