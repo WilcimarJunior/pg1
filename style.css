@@ -19,7 +19,7 @@
 
 main{
     min-width:300px;
-    
+    max-width: 100%;
     margin: auto;
     padding: 20px;
 }
@@ -41,8 +41,7 @@ h2{
     border-radius: 0px;
     background-color: rgba(0, 0, 0, 0.774);
     margin-bottom: 30px;
-    margin-top: 30px;
-    
+    margin-top: 30px;   
     box-shadow: 2px 2px 3px gray;
 }
 
@@ -55,7 +54,6 @@ section h3 {
     font-size: 3em;
     
 }
-
 
 header{
     text-align:center;
@@ -87,8 +85,7 @@ header > p{
     background-color: black;
     text-align: center;
     color: blanchedalmond;
-    width: 100%;
-    
+    width: 100%;   
     padding-bottom: 50px;
     margin-top: 215px;
     margin-bottom:-10px;
@@ -186,8 +183,8 @@ section {
     min-height: 500px;
     margin: auto;
     margin-top: 10px;
-    margin-bottom: 20px;
-    max-width: 600px;
+    margin-bottom: 50px;
+    max-width: 500px;
     border-radius: 5px 5px;
     box-shadow: 3px 3px 5px gray;
     padding:20px; 
@@ -223,7 +220,6 @@ article > iframe{
     height: 90%;
 
 }
-
         
 table,th,tr{
     border: 1px solid black;margin:auto;padding:auto;
