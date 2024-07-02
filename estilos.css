@@ -1,0 +1,96 @@
+@charset "UTF-8";
+
+*{
+    
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0%;
+    padding: 0%;
+}
+
+
+
+header > h1 {
+    height: 100px;
+    text-align: center;
+    font-size: 2.5em;
+    color: #f0e797;
+    text-shadow: 3px 3px 5px black;
+    background-image: url(imagensgames/0adgameplay50opacity.jpeg);
+    background-position: center;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    
+    border: 1px solid black;
+}
+
+
+
+article {
+    
+    display: flex;
+    
+    background-color: #334242;
+    height: 50%;
+    width: 100%;
+    
+    flex-flow: row wrap;
+}
+
+article > div{
+    position: relative;
+    background-size: contain;
+    background-color: black;
+    border: 1px solid black;
+    height: 250px;
+    width: 200px;
+    margin: 20px;
+    margin-left: 90px;
+    border-radius: 20px;
+    overflow: hidden;
+    flex:none;
+    box-shadow: 3px 3px 10px black;  
+}
+
+article > div:hover {
+transform: scale(1.1);
+transition: 2s;
+}
+
+footer {
+    position:absolute;
+    /*display: block;*/
+    height: 30%;
+    width: 100%;
+    background-color:#323842;
+    border: 1px solid black;
+    flex-flow: row wrap;
+}
+
+footer > nav {
+padding-top: 30px;
+}
+
+footer > nav > a {
+    
+    display:inline;
+    color:#ffffffe5;
+    background-color: rgb(24, 22, 22);
+    margin: 50px;
+    margin-right: 30px;
+    padding: 10px;
+    font-size: 1.0em;  
+    text-decoration: none; 
+    box-shadow: 2px 2px 5px black;
+    border-radius: 2px;
+}
+
+footer > nav > a:hover {
+    background-color: #324237;
+    transition: 0.5s;
+}
+
+/*CSS DAS PAGINAS GAMES*/
+
+h1 {
+    text-align: center;
+}
