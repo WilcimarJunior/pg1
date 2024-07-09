@@ -23,7 +23,8 @@ header > h1 {
     text-align: center;
     font-size: 2.5em;
     color: #f0e797;
-    text-shadow: 3px 3px 5px black;
+    text-shadow: 5px 5px 5px black;
+    text-decoration:none;
     background-image: url(imagensgames/0adgameplay50opacity.jpeg);
     background-position: center;
     background-repeat:no-repeat;
@@ -42,6 +43,7 @@ main > article {
     flex-flow:wrap;
     justify-content:center;
     align-items:flex-start;
+    border-top: 1px solid black;
 }
 
 main > article > div{
@@ -51,7 +53,7 @@ main > article > div{
     height: 250px;
     width:200px;
     margin: 20px;
-
+    margin-top: 40px;
     border-radius: 20px;
     overflow: hidden;
     
@@ -66,32 +68,43 @@ transition: 2s;
 main > footer{
     
     position:absolute;
-
-    height: 45%;
+    display: flex;
+    flex-flow: wrap;
+    border-top: 1px solid black;
+    height: 60%;
     width: 100%;
     background-color:#323842;   
 }
 
 
-footer > nav{
-    margin-top: 20px;
+footer > ul{
+    list-style-type: none;
+    margin: auto;
+    padding: 0px;
+    overflow: hidden;
+    text-align: center;
 }
 
-footer > nav > a{
-    
-    text-align: center;
+footer > li{
+    float: none;
+}
+
+footer > ul > li > nav > a{
     color:#ffffffe5;
     background-color:#181616;
-    margin: 100px;
+    margin:10px;
     padding: 5px;
     font-size: 1.0em;  
     text-decoration: none; 
     box-shadow: 2px 2px 5px black;
     border-radius: 2px;
-    
 }
 
-footer > nav > a:hover {
+footer> ul > li > nav{
+    margin: 30px;
+}
+
+footer > ul > li > nav > a:hover {
     background-color: #324237;
     transition: 0.5s;
 }
