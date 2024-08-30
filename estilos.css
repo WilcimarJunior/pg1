@@ -25,6 +25,7 @@ header > h1 {
     color: #f0e797;
     text-shadow: 5px 5px 5px black;
     text-decoration:none;
+    background-color: black;
     background-image: url(imagensgames/0adgameplay50opacity.jpeg);
     background-position: center;
     background-repeat:no-repeat;
@@ -36,7 +37,8 @@ header > h1 {
 
 main > article {
     
-    background-color: #334242;
+    background-image: linear-gradient(to top, gray, #334242);
+    /*background-color: #334242;*/
     display: flex;
     height: 90%;
     width: 100%;
